@@ -22,15 +22,27 @@
 # THE SOFTWARE.
 # 
 
-require 'hmac'
+require_relative 'hmac'
 
 # list of sites we visit
 Sites = %w(
-	paypal.com
+	apple.com
+	thawte.com
+	adp.com
+	amazon.com
+	apmex.com
 	boardgamegeek.com
+	bulkregister.com
+	directv.com
+	facebook.com
 	google.com
-	mahaenergy.com
+	intrade.com
+	lendingclub.com
 	ma.gnolia.com
+	mahaenergy.com
+	mint.com
+	netflix.com
+	paypal.com
 )
 
 # make sure our hmac is working properly
